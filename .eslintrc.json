@@ -1,3 +1,42 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["react-app", "airbnb", "prettier"],
+  "plugins": ["react-hooks", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "camelcase": 0,
+    "import/order": 0,
+    "global-require": 0,
+    "react/prefer-stateless-function": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/control-has-associated-label": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-ajsx-a11y/anchor-is-valid": 0,
+    "import/prefer-default-export": 0,
+    "no-nested-ternary": 0,
+    "no-async-promise-executor": 0,
+    "no-unused-vars": 0,
+    "no-lonely-if": 0,
+    "no-use-before-define": [
+      "error",
+      { "functions": false, "classes": true, "variables": true }
+    ],
+    "no-param-reassign": 0,
+    "no-console": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "ignorePatterns": ["public"]
 }
