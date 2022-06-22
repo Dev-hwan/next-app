@@ -1,4 +1,8 @@
+개인 프로젝트 시작
+===========================
+
 맨날 미루고 미루던 개인공부 시작...!
+바빠지면 자주 못할 것 같지만 하루에 30분이라도 한다는 생각으로 진행!
 
 ## 개인 프로젝트 주제 정하기
 
@@ -8,10 +12,10 @@
 
 
 ## Architecture
- - Front-End: Next.js + Typescript
- - Back-End: Spring Boot...? 그나마 해본게 자바인데 손 놓은지 오래돼서 이 참에 node.js로 할까도 고민 중
- - Database: MariaDB or MySql
- - Cloud: GCP, 로컬에서 작업 후 완성될 시점 쯤에 VM하나 띄워서 고정 IP 부여할 예정
+ >- Front-End: Next.js + Typescript
+ >- Back-End: Spring Boot...? 그나마 해본게 자바인데 손 놓은지 오래돼서 이 참에 node.js로 할까도 고민 중
+ >- Database: MariaDB or MySql
+ >- Cloud: GCP, 로컬에서 작업 후 완성될 시점 쯤에 VM하나 띄워서 고정 IP 부여할 예정
 
 
 
